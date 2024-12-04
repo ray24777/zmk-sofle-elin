@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
-    - name: gpeye
-      url-base: https://github.com/GPeye
+    - name: ray24777
+      url-base: https://github.com/ray24777
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
-    - name: urchin-peripheral-animation
-      remote: gpeye
+    - name: elin-peripheral-animation
+      remote: ray24777
       revision: main 
   self:
     path: config
